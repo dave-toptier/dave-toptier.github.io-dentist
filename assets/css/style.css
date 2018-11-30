@@ -1,0 +1,106 @@
+
+
+/*****Header*****/
+
+.page-header:after, .page-header:before{
+	background-color: rgba( 0, 0, 0, 0.4 );
+}
+
+.page-header.page-header-small{
+	min-height: 80vh;
+}
+
+
+
+h1.title{
+	margin-bottom: 0px;
+	font-weight: 400;
+}
+
+h6.title{
+	padding-top: 10px;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+}
+
+/*****Navbar*****/
+
+.bg-primary{
+	background-color: #1E90FF !important;
+}
+
+/*****Main Content*****/
+.description{
+	font-weight: 400;
+}
+
+.blockquote.blockquote-primary{
+	border-color: #1E90FF;
+	color: #1E90FF;
+}
+
+.blockquote.blockquote-primary small{
+	color: #1E90FF;
+}
+
+.section-story-overview p.blockquote{
+	width: 300px;
+}
+
+.btn-primary{
+	background-color: #1E90FF;
+	border-color: #1E90FF; 
+	font-weight: bold;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:active:hover, .btn-primary.active:hover, .show>.btn-primary.dropdown-toggle, .show>.btn-primary.dropdown-toggle:focus, .show>.btn-primary.dropdown-toggle:hover{
+	background-color: #0169CE;
+	border-color: #0169CE;
+}
+
+h4.title{
+	color: #1E90FF;
+}
+
+img.image {
+	height: 335px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    border-radius: .25rem;
+}
+
+.section {
+	padding: 70px 0px 0px 0px;
+}
+
+.icon-container{
+	width: 128px;
+	height: 128px;
+	border-radius: 50%;
+	background-color: #1E90FF;
+	display: flex;
+	justify-content: center;
+}
+
+.icon{
+	width: 64px;
+	height: 64px;
+	background-origin: transparent;
+	align-self: center;
+}
+
+img.icon-headset, img.icon-software{
+	width: 80px;
+}
+
+input.btn{
+	text-align: center;
+	padding: 11px 15px;
+	font-size: 1em;
+}
+.vp-player-layout{
+	box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3) !important;
+    border-radius: .25rem !important;
+}
